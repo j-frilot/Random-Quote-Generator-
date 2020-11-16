@@ -72,6 +72,10 @@ btn.addEventListener('click', function(){
  
     let text = document.querySelector('#text')
     let author = document.querySelector('#author')
+    
+
+    document.querySelector('.quotes').style.display = "inline"
+
 
     text.textContent = quote
     author.textContent = person

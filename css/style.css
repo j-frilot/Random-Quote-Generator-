@@ -1,0 +1,46 @@
+body {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  font-size: 20px;
+  background: #666;
+}
+
+.container {
+  margin: 300px auto;
+  width: 900px;
+  background: #999;
+  border: 10px solid;
+  border-radius: 10px;
+}
+
+.content {
+  margin: auto;
+  width: 700px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.btn {
+  padding: 10px 15px;
+  background: #666;
+  color: #fff;
+  font-size: 26px;
+}
+
+.quotes {
+  display: none;
+  font-size: 36px;
+  font-family: "Dancing Script", cursive;
+}
+
+.text {
+  font-size: 36px;
+  font-family: "Dancing Script", cursive;
+}
+
+.author {
+  align-self: flex-end;
+}
