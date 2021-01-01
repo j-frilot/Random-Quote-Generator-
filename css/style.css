@@ -3,18 +3,40 @@ body {
   margin: 0;
   padding: 0;
   font-size: 20px;
-  background: #666;
+  background-image: url(/Mine/pexels-jess-bailey-designs-775979.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
 }
 
 .container {
   margin: 300px auto;
-  width: 900px;
-  background: #999;
-  border: 10px solid;
+  width: 768px;
+  background-color: rgba(134, 187, 216, 0.9);
+  border: 10px solid rgba(47, 72, 88, 0.6);
   border-radius: 10px;
 }
 
+@media screen and (max-width: 768px) {
+  .container {
+    display: flex;
+    flex-wrap: wrap;
+    width: 576px;
+    justify-content: center;
+  }
+}
+
+@media screen and (max-width: 576px) {
+  .container {
+    display: flex;
+    flex-wrap: wrap;
+    width: 350px;
+    justify-content: center;
+  }
+}
+
 .content {
+  color: rgb(47, 72, 88);
   margin: auto;
   width: 700px;
   display: flex;
@@ -25,9 +47,10 @@ body {
 
 .btn {
   padding: 10px 15px;
-  background: #666;
-  color: #fff;
+  background: rgb(134, 187, 216);
   font-size: 26px;
+  border: 10px solid rgba(47, 72, 88, 0.6);
+  border-radius: 10px;
 }
 
 .quotes {
@@ -40,7 +63,7 @@ body {
   font-size: 36px;
   font-family: "Dancing Script", cursive;
 }
-
+/* 
 .author {
-  align-self: flex-end;
-}
+  align-self: flex-s;
+} */
